@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  --color-gold-50: #fefcf5;
+  --color-gold-100: #fdf6dc;
+  --color-gold-200: #faebb8;
+  --color-gold-300: #f5dc89;
+  --color-gold-400: #e9c44f;
+  --color-gold-500: #c5a038;
+  --color-gold-600: #a88224;
+  --color-gold-700: #84621c;
+  --color-gold-800: #6c4e1c;
+  --color-gold-900: #5a401c;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+  }
+}

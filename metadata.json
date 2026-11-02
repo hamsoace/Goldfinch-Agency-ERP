@@ -1,0 +1,6 @@
+{
+  "name": "Goldfinch Insurance Agency - InsureERP",
+  "description": "Kenya insurance agency ERP for Goldfinch Insurance Agency, featuring policies, endorsements, claims, Daraja M-Pesa tracking, SMS/WhatsApp messaging, KES commissions, and RBAC.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
